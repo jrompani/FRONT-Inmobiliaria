@@ -1,0 +1,374 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Inmobiliaria</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="barra bg-success">
+            <div class="container">
+                <nav class="navbar bg-transparent navbar-dark bg-dark navbar-expand-lg">
+                    <a href="#" class="navbar-brand text-uppercase">Inmob<span>SI</span></a>
+                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#menuPrincipal" aria-controls="menuPrincipal" aria-expanded="false" aria-label="Mostrar Navegación">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="menuPrincipal">
+                        <ul class="navbar-nav w-100 justify-content-end text-uppercase">
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Nosotros</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" id="anunciosDrop" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Anuncios</a>
+                                <div class="dropdown-menu">
+                                    <a href="#" class="dropdown-item">Casa 1</a>
+                                    <a href="#" class="dropdown-item">Casa 2</a>
+                                    <a href="#" class="dropdown-item">Casa 3</a>
+                                    <a href="#" class="dropdown-item">Casa 4</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div> <!-- Cierre del Container-->
+        </div><!-- Cierre de la barra-->
+
+
+        <div id="slider" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/slide1.jpg" class="d-block w-100">
+                    <div class="container">
+                        <div class="row justify-content-between">
+                            <div class="col-md-6">
+                                <div class="carousel-caption d-none d-md-block text-left">
+                                    <h3>Casa en Zona "San Isidro Centro"</h3>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="carousel-caption d-none d-md-block bloque-info">
+                                    <h5 class="bg-success py-3 text-uppercase">En Venta</h5>
+                                    <p>U$s 250.000</p>
+                                    <a href="#" class="btn btn-warning d-block">Más Información</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                        <img src="img/slide2.jpg" class="d-block w-100">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h1 class="display-4">Propiedades de Categoría</h1>
+                        </div>
+                </div>
+            </div>
+            <a href="#slider" class="carousel-control-prev" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            </a>
+            <a href="#slider" class="carousel-control-next" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            </a>
+        </div>
+    </header>
+
+    <section class="container sobre-nosotros mt-5">
+        <h2 class="text-center mb-5">Más sobre Nosotros</h2>
+        <div class="row">
+            <div class="col-4 text-center">
+                <img src="./img/icono_seguridad.jpg" alt="Seguridad" class="img-fluid mb-4">
+                <h3 class="mb-3 text-uppercase">Seguridad</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, 
+                    ab in. At doloribus cupiditate delectus, totam quisquam explicabo 
+                    consequuntur non laudantium, esse consectetur cum, perferendis inventore 
+                    iure voluptatum incidunt. Quasi.</p>
+            </div>
+            <div class="col-4 text-center">
+                <img src="./img/icono_precio.jpg" alt="Seguridad" class="img-fluid mb-4">
+                <h3 class="mb-3 text-uppercase">Precio</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, 
+                        ab in. At doloribus cupiditate delectus, totam quisquam explicabo 
+                        consequuntur non laudantium, esse consectetur cum, perferendis inventore 
+                        iure voluptatum incidunt. Quasi.</p>
+            </div>
+            <div class="col-4 text-center">
+                <img src="./img/icono_disponible.jpg" alt="Seguridad" class="img-fluid mb-4">
+                <h3 class="mb-3 text-uppercase">Disponibilidad</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque, 
+                        ab in. At doloribus cupiditate delectus, totam quisquam explicabo 
+                        consequuntur non laudantium, esse consectetur cum, perferendis inventore 
+                        iure voluptatum incidunt. Quasi.</p>
+            </div>
+        </div>
+    </section>
+        
+    <section class="container anuncios">
+            <h2 class="text-center mt-5">Casas y Departamentos en Venta</h2>
+            <div class="row mt-5">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="img/anuncio1.jpg" alt="anuncio casa">
+                        <div class="card-body">
+                            <h3 class="card-title">Casa en Zona de Lujo</h3>
+                            
+                            <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                            <p class="card-precio">$1.500.000</p>
+                            
+                            <ul class="card-descripcion list-unstyled d-flex justify-content-between">
+                                <li><img src="img/icono_wc.png">3</li>
+                                <li><img src="img/icono_cuartos.png">3</li>
+                                <li><img src="img/icono_estacionamiento.png">2</li>
+                            </ul>
+                        </div>
+    
+                            <a href="#" class="btn btn-warning d-block py-2 text-uppercase">Ver Propiedad</a>
+                    </div> <!-- Cierre del card-->
+                </div> <!-- Cierre del col-->
+           
+
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img class="card-img-top" src="img/anuncio2.jpg" alt="anuncio casa">
+                            <div class="card-body">
+                                <h3 class="card-title">Casa en Zona de Lujo</h3>
+                                
+                                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                <p class="card-precio">$3.520.000</p>
+                                
+                                <ul class="card-descripcion list-unstyled d-flex justify-content-between">
+                                    <li><img src="img/icono_wc.png">3</li>
+                                    <li><img src="img/icono_cuartos.png">3</li>
+                                    <li><img src="img/icono_estacionamiento.png">2</li>
+                                </ul>
+                            </div>
+        
+                                <a href="#" class="btn btn-warning d-block py-2 text-uppercase">Ver Propiedad</a>
+                        </div> <!-- Cierre del card-->
+                    </div> <!-- Cierre del col-->
+
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img class="card-img-top" src="img/anuncio3.jpg" alt="anuncio casa">
+                            <div class="card-body">
+                                <h3 class="card-title">Casa en Zona de Lujo</h3>
+                                    
+                                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                <p class="card-precio">$1.102.030</p>
+                                    
+                                <ul class="card-descripcion list-unstyled d-flex justify-content-between">
+                                    <li><img src="img/icono_wc.png">3</li>
+                                    <li><img src="img/icono_cuartos.png">3</li>
+                                    <li><img src="img/icono_estacionamiento.png">2</li>
+                                </ul>
+                            </div>
+            
+                            <a href="#" class="btn btn-warning d-block py-2 text-uppercase">Ver Propiedad</a>
+                            </div> <!-- Cierre del card-->
+                        </div> <!-- Cierre del col-->
+  
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="img/anuncio4.jpg" alt="anuncio casa">
+                        <div class="card-body">
+                        <h3 class="card-title">Casa en Zona de Lujo</h3>
+                            
+                        <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                        <p class="card-precio">$1.500.000</p>
+                            
+                        <ul class="card-descripcion list-unstyled d-flex justify-content-between">
+                            <li><img src="img/icono_wc.png">3</li>
+                            <li><img src="img/icono_cuartos.png">3</li>
+                            <li><img src="img/icono_estacionamiento.png">2</li>
+                            </ul>
+                        </div>
+    
+                        <a href="#" class="btn btn-warning d-block py-2 text-uppercase">Ver Propiedad</a>
+            </div> <!-- Cierre del card-->
+            </div> <!-- Cierre del col-->
+
+                <div class="col-md-4">
+                        <div class="card">
+                            <img class="card-img-top" src="img/anuncio5.jpg" alt="anuncio casa">
+                            <div class="card-body">
+                                <h3 class="card-title">Casa en Zona de Lujo</h3>
+                                
+                                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                <p class="card-precio">$1.500.000</p>
+                                
+                                <ul class="card-descripcion list-unstyled d-flex justify-content-between">
+                                    <li><img src="img/icono_wc.png">3</li>
+                                    <li><img src="img/icono_cuartos.png">3</li>
+                                    <li><img src="img/icono_estacionamiento.png">2</li>
+                                </ul>
+                            </div>
+        
+                                <a href="#" class="btn btn-warning d-block py-2 text-uppercase">Ver Propiedad</a>
+                        </div> <!-- Cierre del card-->
+                    </div> <!-- Cierre del col-->
+
+                    <div class="col-md-4">
+                            <div class="card">
+                                <img class="card-img-top" src="img/anuncio6.jpg" alt="anuncio casa">
+                                <div class="card-body">
+                                    <h3 class="card-title">Casa en Zona de Lujo</h3>
+                                    
+                                    <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                                    <p class="card-precio">$1.500.000</p>
+                                    
+                                    <ul class="card-descripcion list-unstyled d-flex justify-content-between">
+                                        <li><img src="img/icono_wc.png">3</li>
+                                        <li><img src="img/icono_cuartos.png">3</li>
+                                        <li><img src="img/icono_estacionamiento.png">2</li>
+                                    </ul>
+                                </div>
+            
+                                    <a href="#" class="btn btn-warning d-block py-2 text-uppercase">Ver Propiedad</a>
+                            </div> <!-- Cierre del card-->
+                        </div> <!-- Cierre del col-->
+            </div>  <!-- Cierre del row-->
+    </section> <!-- CIERRE SECCION ANUNCIOS-->
+    
+    <section class="encuentra mt-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col text-light">
+                    <h3>Encuentra la casa que soñaste</h3>
+                    <p>Llena el formulario de contacto y un asesor se pondrá en contacto a la brevedad.</p>
+                    <a href="#" class="btn btn-warning text-uppercase py-2 mt-4">Contactanos</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-8">
+                <h2 class="text-center mb-5">Nuestro Blog</h2>
+
+                <div class="row entrada my-4">
+                    <div class="col md-5">
+                        <img src="img/blog1.jpg" alt="" class="img-fluid">
+                    </div>
+                    
+                    <div class="col md-7">
+                        <h3 class="my-2">Terraza en el techo de tu casa</h3>
+                        <p class="meta">
+                            Escrito el: <span>20/07/2018</span> por: <span>Admin</span>
+                        </p>
+
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Accusamus odio ratione placeat porro ea voluptas atque 
+                            assumenda similique quo iure, nihil asperiores est alias 
+                            eos pariatur, officia adipisci tenetur rerum?</p>
+                            <a href="#" class="btn btn-success py-2 px-5">Leer Más</a>
+                    </div>
+                </div> <!-- Cierre de la entrada-->
+
+                <div class="row entrada my-4">
+                        <div class="col md-5">
+                            <img src="img/blog2.jpg" alt="" class="img-fluid">
+                        </div>
+                        
+                        <div class="col md-7">
+                            <h3 class="my-2">Guía de Decoración</h3>
+                            <p class="meta">
+                                Escrito el: <span>05/01/2018</span> por: <span>Admin</span>
+                            </p>
+    
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Accusamus odio ratione placeat porro ea voluptas atque 
+                                assumenda similique quo iure, nihil asperiores est alias 
+                                eos pariatur, officia adipisci tenetur rerum?</p>
+                                <a href="#" class="btn btn-success py-2 px-5">Leer Más</a>
+                        </div>
+                    </div> <!-- Cierre de la entrada-->
+            </div><!--Cierre del Col -->
+
+
+            <div class="col-md-4">
+                <h2 class="text-center mb-5">Testimoniales</h2>
+
+                <div class="testimoniales p-5">
+                    <div id="testimoniales" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner text-light">
+                            <div class="carousel-item active">
+                                
+                                <p class="testimonial-texto"> ipsum, dolor sit amet consectetur adipisicing 
+                                elit. Hic, mollitia? Quasi necessitatibus nostrum 
+                                ratione accusamus distinctio atque tempore veritatis, 
+                                aliquid perspiciatis, ea, qui modi debitis officia 
+                                porro nulla! Perspiciatis, adipisci!
+                                <span class="d-block text-right mt-4"> - Persona 1</span>
+                                </p>
+                                
+                            </div> <!-- Cierre de Item -->
+                            <div class="carousel-item">
+                                <p class="testimonial-texto">Lorem ipsum, dolor sit amet consectetur adipisicing 
+                                elit. Hic, mollitia? Quasi necessitatibus nostrum 
+                                ratione accusamus distinctio atque tempore veritatis, 
+                                aliquid perspiciatis, ea, qui modi debitis officia 
+                                porro nulla! Perspiciatis, adipisci!
+                                <span class="d-block text-right mt-4"> - Persona 2</span>
+                                </p>
+                                
+                            </div> <!-- Cierre de Item -->
+
+                            <div class="carousel-item">
+                                <p class="testimonial-texto">Lorem ipsum, dolor sit amet consectetur adipisicing 
+                                elit. Hic, mollitia? Quasi necessitatibus nostrum 
+                                ratione accusamus distinctio atque tempore veritatis, 
+                                aliquid perspiciatis, ea, qui modi debitis officia 
+                                porro nulla! Perspiciatis, adipisci!
+                                <span class="d-block text-right mt-4"> - Persona 3</span>
+                                </p>
+                                
+                            </div> <!-- Cierre de Item -->
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div><!--Cierre del Row -->
+    </div>
+
+    
+    <footer class="footer bg-dark mt-5">
+        <div class="container">
+            <div class="row py-4">
+                <ul class="nav col flex-column flex-md-row text-center">
+                    <li class="nav-item"><a href="#" class="nav-link">Inicio</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Nosotros</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Anuncios</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Contacto</a></li>
+                </ul>
+
+                <p class="copyright text-light col-md-4 text-center text-md-right m-0 mt-4 mt-md-0">2019. Derechos Reservados</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

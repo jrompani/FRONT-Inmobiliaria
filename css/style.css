@@ -1,0 +1,177 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+:root {
+    --primario: #5FAE57;
+    --secundario: #FFAA1D
+}
+
+h1, h2, h3, h4{
+    font-weight: 300;
+}
+
+
+/* HEADER */
+
+.navbar-brand {
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.navbar-brand span {
+    font-weight: 900;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffff;
+}
+
+.dropdown-menu {
+    background-color: var(--primario);
+}
+
+.dropdown-menu .dropdown-item {
+    color: #ffff;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: var(--secundario);
+}
+
+
+/* CAPTION */
+
+.carousel-caption h3{
+    font-size: 3rem;
+}
+
+.bloque-info p{
+    font-size: 1.4rem;
+}
+
+.btn-warning{
+    background-color: var(--secundario);
+    color: #ffff;
+    font-weight: 700;
+}
+
+
+
+.bg-success {
+    background-color: var(--primario)!important;
+}
+
+@media (min-width: 768px) {
+    .barra.bg-success{
+        background-color: transparent!important;
+    }
+    .header {
+        position: relative;
+    }
+    .header .barra{
+        position: absolute;
+        z-index: 100;
+        width: 100%;
+    }
+}
+
+
+/* NOSOTROS */
+
+.sobre-nosotros h3{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+/* ANUNCIOS */
+
+.anuncios .card {
+     margin-bottom: 2rem;
+}
+
+.card-precio{
+    font-size: 1.3rem;
+    color: var(--primario);
+}
+
+.card-descripcion img{
+    margin-right: 0.7rem;
+}
+
+/* ENCUENTRA */
+
+.encuentra{
+    background-image: url(../img/contacto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-x: center;
+}
+
+.encuentra .row{
+    height: 25rem;
+}
+
+.encuentra h3{
+    font-weight: 700;
+    font-size: 2.2rem;
+}
+
+/* BLOG */
+
+.entrada h3::after{
+    content: '';
+    display: block;
+    width: 8rem;
+    height: .2rem;
+    background-color: var(--primario);
+    margin-top: .5rem;
+}
+
+.meta span{
+    color: var(--secundario);
+}
+
+.btn-success{
+    background-color: var(--primario);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.testimoniales{
+    background-color: var(--primario);
+}
+
+
+.testimoniales .carousel-item{
+    padding-left: 2rem;
+}
+
+.testimoniales .testimonial-texto{
+    font-size: 1.4rem;
+    line-height: 2rem;
+    font-weight: 300;
+}
+
+.testimoniales .testimonial-texto::before{
+    content: open-quote;
+    font-size: 4rem;
+    position: absolute;
+    left: 0;
+    top: 0.6rem;
+}
+
+.testimoniales span{
+    font-size: 1.4rem;
+    font-weight: 900;
+}
+
+.footer .bg-dark{
+    background-color: #333333!important;
+}
+
+.footer .nav-link{
+    color: #ffff;
+    text-transform: uppercase;
+}
